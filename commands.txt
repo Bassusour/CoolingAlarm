@@ -1,0 +1,5 @@
+sudo make PORT='/dev/ttyACM0' hello-world.upload
+sudo make PORT='/dev/ttyACM0' login
+make TARGET=cc26x0-cc13x0 BOARD=launchpad/cc2650 PORT='dev/ttyACM0' savetarget
+
+Husk at sætte PATH rigtig med sudo (/etc sudo vim sudoers)
